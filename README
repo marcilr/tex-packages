@@ -8,6 +8,9 @@ Filelist
 00TARBALLS/
   Tarballs
 
+manifest
+  Manifest for resync application
+
 packages.txt
   LateX packages
 
