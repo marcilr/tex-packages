@@ -1,0 +1,68 @@
+diff -urN lshort-4.20/Makefile lshort-4.20_fixed/Makefile
+--- lshort-4.20/Makefile	2006-05-30 22:54:10.000000000 -0800
++++ lshort-4.20_fixed/Makefile	2006-06-07 15:37:25.000000000 -0800
+@@ -8,10 +8,10 @@
+ 	src/lshort-base.tex src/lshort-a5.tex src/graphic.tex
+ 
+ # Define some variables
+-LATEX=latex-20051102
+-PDFLATEX=pdflatex-20051102
+-MAKEINDEX=makeindex-20051102
+-DVIPS=dvips-20051102
++LATEX=latex
++PDFLATEX=pdflatex
++MAKEINDEX=makeindex
++DVIPS=dvips
+ 
+ # The default targets
+ all: lshort.ps lshort-book.ps lshort.pdf lshort-a5book.pdf
+diff -urN lshort-4.20/src/lshort.sty lshort-4.20_fixed/src/lshort.sty
+--- lshort-4.20/src/lshort.sty	2006-05-30 05:08:25.000000000 -0800
++++ lshort-4.20_fixed/src/lshort.sty	2006-06-07 15:35:35.000000000 -0800
+@@ -20,7 +20,7 @@
+ \RequirePackage[all]{xy}
+ \RequirePackage[T1]{fontenc}
+ \RequirePackage[latin1]{inputenc}
+-\RequirePackage{lmodern}
++%%\RequirePackage{lmodern}
+ %\RequirePackage{textcomp}
+ %\RequirePackage{type1cm}% remove size restrictions
+ %\RequirePackage{aeguill}
+@@ -34,14 +34,14 @@
+ \let\Rightarrow\org@Rightarrow
+ %%%%
+ \RequirePackage[gen]{eurosym} % redefines \EUR
+-\RequirePackage{eurosans}
++%%\RequirePackage{eurosans}
+ \let\EUROSANS\euro
+ % marvosym defines \EUR, \EURtm, \EURhv and \EURcr (with \def), while europs
+ % uses \providecommand to define them :-( so let's first undefine them:
+ \let\EURtm\undefined
+ \let\EURhv\undefined
+ \let\EURcr\undefined
+-\RequirePackage{europs}
++%%\RequirePackage{europs}
+ %\RequirePackage[mathcal]{euscript}
+ %\IfFileExists{eucal.sty}
+ %  {\RequirePackage[psamsfonts]{eucal}}
+diff -urN lshort-4.20/src/spec.tex lshort-4.20_fixed/src/spec.tex
+--- lshort-4.20/src/spec.tex	2006-05-30 06:19:28.000000000 -0800
++++ lshort-4.20_fixed/src/spec.tex	2006-06-07 15:34:59.000000000 -0800
+@@ -565,7 +565,7 @@
+ already have a copy of them installed all you need todo is to add
+ \begin{code}
+ \begin{verbatim}  
+-\usepackage{lmodern}
++%%\usepackage{lmodern}
+ \usepackage[T1]{fontenc} 
+ \usepackage{textcomp}
+ \end{verbatim}
+@@ -870,7 +870,7 @@
+ \fi
+ 
+ \ifpdf
+-  \usepackage{lmodern}
++%%  \usepackage{lmodern}
+ \fi
+ \usepackage[bookmarks, % add hyperlinks
+             colorlinks,
