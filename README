@@ -5,6 +5,10 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+.gitignore
+  Specifies intentionally untracked files to ignore
+  https://git-scm.com/docs/gitignore
+
 00TARBALLS/
   Tarballs
 
