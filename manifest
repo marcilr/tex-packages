@@ -12,6 +12,4 @@
 # some repos like svn-to-git/ that have acutally dashes in the repo name.
 # Have not escaped these dashes in any way.   Might do this at some point.
 #
-
-# gitinfo2
-ssh://htpc/data/git/tex/packages/gitinfo2   gitinfo2
+ssh://git@github.com/marcilr/tex-packages-gitinfo2.git   gitinfo2
