@@ -1,0 +1,10 @@
+# .gitignore
+# Created Thu Sep  6 13:08:36 AKDT 2018
+# by Raymond E. Marcil <rmarcil@gci.com>
+#
+# Links
+# =====
+# gitignore - Specifies intentionally untracked files to ignore
+# https://git-scm.com/docs/gitignore
+#
+gitinfo2/
