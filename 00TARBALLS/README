@@ -1,0 +1,28 @@
+README
+Created Mon Aug 31 16:20:46 AKDT 2009
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+
+Filelist
+========
+lshort-3.20.src.tar.gz
+  Tarball for The not so Short Introduction to LaTeX - Tobias Oetiker
+
+lshort-4.20.patch
+  A quick patch to get lshort-4.20.src.tar.gz to build without the
+  lmodern, eurosans, or europs packages.
+
+  Changes:
+    spec.tex: lines 568, 873 (commented out lmodern reference)
+    lshort.sty: line 23 (commented out lmodern reference)
+    lshort.sty: line 37 (commented out eurosans reference)
+    lshort.sty: line 44 (commented out europs reference).
+
+  Makefile:
+    Removed "-20051102" suffix from latex, pdflatex, makeindex, and
+    dvips binaries.
+
+lshort-4.20.src.tar.gz
+  Latest release of the LaTeX Short document. In need explode and check into
+  repo.
