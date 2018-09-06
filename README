@@ -1,0 +1,21 @@
+README
+Created Thu Jun 29 17:34:03 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+00TARBALLS/
+  Tarballs
+
+packages.txt
+  LateX packages
+
+qtree.txt
+  Notes on using the qtree package to generate graphical tree structure
+  in latex.
+
+  A nice structure for displaying tree like graph structures in
+  the gis project-spec.tex doc for displaying a directory hierarchy
+  put could be used for other tree-link graph structures.
+
