@@ -1,0 +1,29 @@
+qtree.txt
+Created Wed Jan 25 09:07:19 AKST 2006
+by Raymond E. Marcil
+
+
+A nice structure for displaying tree like graph 
+structures in the gis project-spec.tex doc for displaying 
+a directory hierarchy put could be used for other
+tree-link graph structures.
+
+
+Example from project-spec.tex under src/ directory 
+section:
+
+%% qtree package is needed for tree structure
+\usepackage{qtree}
+
+\end{minipage}
+\hspace{5pt}
+\begin{minipage}{0.30\textwidth}
+\begin{center}
+
+ %% Note how I use math mode to write the lead node *.java, 
+ %% Otherwise qtree will try to parse it. \
+ \Tree [ .src/ [ .java/ [ .us/ [ .ak/ [ .state/ [ .dnr/ [.{*\(.\)java} ] ] ] ] ] ] [ .js/ [ .{*\(.\)js} ] ] [ .jsp/
+[ .{*\(.\)jsp} ] ] ]
+
+\end{center}
+\end{minipage}
