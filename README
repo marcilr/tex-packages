@@ -8,6 +8,13 @@ Filelist
 00TARBALLS/
   Tarballs
 
+gitinfo2/
+  The `gitinfo2' package allows version control metadata to be
+  incorporated into LaTeX documents; the metadata is obtained from the
+  git distributed version control system.
+  Directory macros/latex/contrib/gitinfo2
+  https://www.ctan.org/tex-archive/macros/latex/contrib/gitinfo2?lang=en
+
 manifest
   Manifest for resync application
 
