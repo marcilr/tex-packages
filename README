@@ -19,6 +19,11 @@ gitinfo2/
   Directory macros/latex/contrib/gitinfo2
   https://www.ctan.org/tex-archive/macros/latex/contrib/gitinfo2?lang=en
 
+lipsum/
+  lipsum – Easy access to the Lorem Ipsum dummy text in TEX-paragraphs
+  CTAN Comprehensive TEX Archive Network
+  https://ctan.org/pkg/lipsum?lang=en
+
 manifest
   Manifest for resync application
 
